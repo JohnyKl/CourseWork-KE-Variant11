@@ -1,0 +1,30 @@
+﻿Build started 21.12.2014 17:29:19.
+     1>Project "H:\Курсові\course_Liryk_Anton\course_Liryk_Anton\course_Liryk_Anton.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS 2012\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\course_Liryk_Anton.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Triangle.cpp
+         Triangle.cpp
+     1>Triangle.cpp(53): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Triangle.cpp(54): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Triangle.cpp(56): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Triangle.cpp(73): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Triangle.cpp(230): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Triangle.cpp(231): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Triangle.cpp(234): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Triangle.cpp(235): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Triangle.cpp(242): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Triangle.cpp(243): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Triangle.cpp(257): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         D:\VS 2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Курсові\course_Liryk_Anton\Debug\course_Liryk_Anton.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\course_Liryk_Anton.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Курсові\course_Liryk_Anton\Debug\course_Liryk_Anton.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Controller.obj
+         Debug\course_Liryk_Anton.obj
+         Debug\stdafx.obj
+         Debug\Triangle.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         course_Liryk_Anton.vcxproj -> H:\Курсові\course_Liryk_Anton\Debug\course_Liryk_Anton.exe
+     1>Done Building Project "H:\Курсові\course_Liryk_Anton\course_Liryk_Anton\course_Liryk_Anton.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.59
